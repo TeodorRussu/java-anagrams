@@ -1,5 +1,11 @@
+
 plugins {
+    application
     id("java")
+}
+
+application {
+    mainClass.set("anagrams.Main")
 }
 
 group = "org.example"
