@@ -78,6 +78,7 @@ Simultaneously, all input texts are stored in a `HashMap<String, List<String>>`,
 
 In feature #2, upon receiving a user input, the application employs the same transformation algorithm as in feature #1 and retrieves the corresponding list from the map based on the transformed text, thereby informing the user of all recognized anagrams of the input text, based on the inputs given during feature #1 execution.
 
+
 ## Build and run the project
 The application can be executed via a Java compatible ide, or using CLIas following:
 Execute from the project root directory the commands below:
